@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   
+ 
+</head>
+<body>
+  
+    <h1>The Future of HTTP</h1>  
+<!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="topic.html">Topic</a></li>
+        <li><a href="products.html">The Future of HTTP</a></li>
+        <li><a href="contact.html">References</a></li>
+    </ul>
+  </nav>
+ <header>
+    <h1>The Future of HTTP: HTTP/3 & QUIC</h1>
+    
+  </header>
+<!-- Intro to HTTP/3 -->
+  <main>
+      <section>
+      <h2>What is HTTP/3?</h2>
+      <p>HTTP/3 is the next major version of the Hypertext Transfer Protocol. It builds on the QUIC transport protocol, which runs on UDP instead of TCP. This shift allows for faster, more secure connections, especially useful for modern web apps and mobile devices.</p>
+    </section>
+<!-- Bullet Points/Facts -->
+    <section>
+      <h2>Why HTTP/3 Matters</h2>
+      <ul>
+        <li><strong>Faster connection setup:</strong> Eliminates TCP and TLS handshakes</li>
+        <li><strong>Reduced latency:</strong> Great for mobile networks and real-time apps</li>
+        <li><strong>Built-in encryption:</strong> QUIC is encrypted by default</li>
+        <li><strong>Stream independence:</strong> One stream error doesn’t block others</li>
+        <li><strong>More resilient to packet loss:</strong> Improves performance on poor connections</li>
+      </ul>
+    </section>
+<!-- Visual Image -->
+    <section>
+      <h2>Visual: Protocol Stack Comparison</h2>
+      <img src="https://docs.netscaler.com/en-us/citrix-adc/media/http3-over-quic-stack-diagram.png" alt="HTTP/3 QUIC Stack Diagram" width="600" />
+    </section>
+<!-- Table for Comparison -->
+    <section>
+      <h2>Comparison Table: HTTP/2 vs HTTP/3</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>HTTP/2</th>
+            <th>HTTP/3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Transport Protocol</td>
+            <td>TCP + TLS</td>
+            <td>QUIC (UDP-based)</td>
+          </tr>
+          <tr>
+            <td>Connection Setup</td>
+            <td>Separate TCP and TLS handshakes</td>
+            <td>Combined handshake (faster)</td>
+          </tr>
+          <tr>
+            <td>Head-of-line Blocking</td>
+            <td>Yes (TCP)</td>
+            <td>No (streams are independent)</td>
+          </tr>
+          <tr>
+            <td>Encryption</td>
+            <td>Optional (via HTTPS)</td>
+            <td>Mandatory (always encrypted)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    
+  </main>
+   <footer style="background-color:brown">
+      <hr>
+    
+      <ul> This is a class Project for IT 3203  <a href="https://ksuweb.github.io/IT3203/">https://ksuweb.github.io/IT3203/</a>
+       
+      
+      </ul>
+      
+  </footer>
+</body>
+</html>
+<html>
+
+</html>
